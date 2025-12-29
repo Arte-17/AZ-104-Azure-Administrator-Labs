@@ -7,6 +7,8 @@ I set up a test user and a group in my Azure tenant using the CLI. The goal was 
 I ran this in the Azure Cloud Shell (Bash).
 
 ```bash
+UPN="practice_user@AArte98hotmail.onmicrosoft.com"
+GRP="Marketing_Team"
 
 # 1. Create the user
 az ad user create --display-name "Practice User" \
